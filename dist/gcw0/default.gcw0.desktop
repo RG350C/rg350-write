@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Viewimg
+Comment=Viewimg application
+Exec=rg350-view-images %f
+Terminal=false
+Type=Application
+MimeType=application/png;
+StartupNotify=true
+Icon=viewimg
+Categories=applications;

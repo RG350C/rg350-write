@@ -1,0 +1,8 @@
+
+rg350-view-images
+
+*.opk
+
+*.o
+
+*.log
