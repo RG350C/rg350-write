@@ -5,23 +5,18 @@
 
 Welcome to DINGUX-Write
 
-Written by Ludovic.Jacomme also known as Zx-81 (zx81.zx81@gmail.com)
+Written by Ludovic.
+Jacomme also known as Zx-81 (zx81.zx81@gmail.com)
+Zx-81 alias Ludovic Jacomme
+Ludovic Jacomme (zx81.zx81@gmail.com)
+(see http://zx81.zx81.free.fr/)
 
-# Authors
 
-PSPWrite    : PSP Version
-
-GP2XWrite   : GP2X-F100 Version
-
-WizWrite    : GP2X-WIZ Version
-
-DinguxWrite : Dingoo/Dingux Version
-
-  Zx-81 alias Ludovic Jacomme
-
-  Ludovic Jacomme (zx81.zx81@gmail.com)
-
-  (see http://zx81.zx81.free.fr/)
+# Others authors
+    PSPWrite    : PSP Version
+    GP2XWrite   : GP2X-F100 Version
+    WizWrite    : GP2X-WIZ Version
+    DinguxWrite : Dingoo/Dingux Version
 
 
 # INTRODUCTION   
@@ -60,36 +55,24 @@ When the virtual keyboard is off then the following mapping is done :
     Menu        Menu
     Select      Virtual keyboard
 
-
-
     L+Up        First line
     L+Down      Last line
     L+Right     End of the line
     L+Left      Beginning of the line
 
-
-
     L+Menu      Help
-
-
 
     L+X         First line
     L+B         Last line
     L+Y         Beginning of the line
     L+A         End of the line
-
-
     
     R+Up        Page up
     R+Down      Page down
     R+Left      Word left
     R+Right     Word right
 
-
-
     R+Menu      Selection mode
-    
-
 
     R+X         Copy
     R+B         Cut
