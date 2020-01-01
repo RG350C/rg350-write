@@ -139,7 +139,7 @@ WARNING: This editor will replace all tabulation by spaces when the expand tab o
 
 # COMPILATION FOR GWC0/RG350 on LINUX
   Developped under Linux Ubuntu / Visual Studio Code / GCC / GCW0 toolchain
-  http://songofstorm.com/tutorial-gcw-zero/
+  http://www.gcw-zero.com/develop
   
     Compile:
         ./build_gcw0.sh
