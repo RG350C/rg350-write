@@ -49,67 +49,73 @@ L/R     Navigate between different keyboard panels
 
 When the virtual keyboard is off then the following mapping is done :
 
-  Up          Move cursor up
+    Up          Move cursor up
 
-  Down        Move cursor down
+    Down        Move cursor down
 
-  Left        Move cursor left
+    Left        Move cursor left
 
-  Right       Move cursor right
+    Right       Move cursor right
 
-  X           Backspace
+    X           Backspace
 
-  Y           Delete
+    Y           Delete
 
-  A           Space 
+    A           Space 
 
-  B           Return
+    B           Return
 
-  Menu        Menu
+    Menu        Menu
 
-  Select      Virtual keyboard
-
-
-  L+Up        First line
-
-  L+Down      Last line
-
-  L+Right     End of the line
-
-  L+Left      Beginning of the line
+    Select      Virtual keyboard
 
 
-  L+Menu      Help
+
+    L+Up        First line
+
+    L+Down      Last line
+
+    L+Right     End of the line
+
+    L+Left      Beginning of the line
 
 
-  L+X         First line
 
-  L+B         Last line
-
-  L+Y         Beginning of the line
-
-  L+A         End of the line
-
-  
-  R+Up        Page up
-
-  R+Down      Page down
-
-  R+Left      Word left
-
-  R+Right     Word right
+    L+Menu      Help
 
 
-  R+Menu      Selection mode
+
+    L+X         First line
+
+    L+B         Last line
+
+    L+Y         Beginning of the line
+
+    L+A         End of the line
 
 
-  R+X         Copy
+    
+    R+Up        Page up
 
-  R+B         Cut
+    R+Down      Page down
 
-  R+Y         Rewrap paragraph
+    R+Left      Word left
 
-  R+A         Paste
+    R+Right     Word right
+
+
+
+    R+Menu      Selection mode
+    
+
+
+    R+X         Copy
+
+    R+B         Cut
+
+    R+Y         Rewrap paragraph
+
+    R+A         Paste
 
 
 3.3 Touch screen
@@ -124,13 +130,13 @@ When the virtual keyboard is off then the following mapping is done :
 
   The touch screen can be used to move the cursor on a position with a simple click. And then you can :
 
-  draw a line up    : page up
+    draw a line up    : page up
 
-  draw a line down  : page down
+    draw a line down  : page down
 
-  draw a line left  : first column of the current line
+    draw a line left  : first column of the current line
 
-  draw a line right : last column of the current line
+    draw a line right : last column of the current line
 
 3.3.3 - Main menu
 
@@ -146,9 +152,9 @@ When the virtual keyboard is off then the following mapping is done :
 
 3.3.5 - Help menu
 
-  draw a line up/left     : page up
+    draw a line up/left     : page up
 
-  draw a line down/right  : page down
+    draw a line down/right  : page down
 
 3.3.6 - Settings menu
 
