@@ -10,8 +10,11 @@ Written by Ludovic.Jacomme also known as Zx-81 (zx81.zx81@gmail.com)
 # Authors
 
 PSPWrite    : PSP Version
+
 GP2XWrite   : GP2X-F100 Version
+
 WizWrite    : GP2X-WIZ Version
+
 DinguxWrite : Dingoo/Dingux Version
 
   Zx-81 alias Ludovic Jacomme
