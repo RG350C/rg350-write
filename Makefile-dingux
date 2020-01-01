@@ -1,0 +1,68 @@
+#
+# Copyright (C) 2007 Ludovic Jacomme (ludovic.jacomme@gmail.com)
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+WRITE_VERSION=1.1.0
+
+TARGET = dingux-write
+SDL_CONFIG = $(DINGUXDEV)/bin/sdl-config
+OBJS= gp2x_psp.o \
+cpudingux.o \
+      psp_menu.o psp_menu_set.o \
+      psp_help.o \
+      psp_global.o \
+      psp_main.o  \
+      psp_fmgr.o \
+      psp_sdl.o psp_font.o psp_danzeff.o \
+      psp_editor.o
+
+
+CC=/usr/local/dinguxdev/usr/bin/mipsel-linux-gcc
+STRIP=/usr/local/dinguxdev/usr/bin/mipsel-linux-strip
+
+DEFAULT_CFLAGS = $(shell $(SDL_CONFIG) --cflags)
+
+MORE_CFLAGS = \
+-I. -I$(DINGUXDEV)/usr/include \
+ -DMPU_JZ4740 -mips32 \
+ -O3 -fsigned-char -ffast-math -fomit-frame-pointer -fno-strength-reduce \
+ -DNO_STDIO_REDIRECT -DDINGUX_MODE  \
+-DWRITE_VERSION=\"$(WRITE_VERSION)\"
+
+CFLAGS = $(DEFAULT_CFLAGS) $(MORE_CFLAGS) 
+LDFLAGS = -static -s
+
+LIBS += -L/opt/mipsel-linux-uclibc/usr/lib \
+/opt/mipsel-linux-uclibc/usr/lib/libSDL_image.a \
+/opt/mipsel-linux-uclibc/usr/lib/libSDL.a \
+-lpng -lz -lm -lpthread  -ldl
+
+
+
+.c.o:
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(TARGET): $(OBJS)
+	$(CC) $(LDFLAGS) $(CFLAGS) $(OBJS) $(LIBS) -o $(TARGET) && $(STRIP) $(TARGET)
+
+install: $(TARGET)
+	cp $< /media/dingux/local/apps/dingux-write/
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+ctags: 
+	ctags *[ch]

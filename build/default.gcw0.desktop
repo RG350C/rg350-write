@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Write
+Comment=Writer Application
+Exec=rg350-write.dge
+Terminal=false
+Type=Application
+MimeType=application/x-txt;
+StartupNotify=true
+Icon=icon
+Categories=applications;
+X-OD-Manual=readme.txt
