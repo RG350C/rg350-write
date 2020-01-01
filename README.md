@@ -50,33 +50,21 @@ L/R     Navigate between different keyboard panels
 When the virtual keyboard is off then the following mapping is done :
 
     Up          Move cursor up
-
     Down        Move cursor down
-
     Left        Move cursor left
-
     Right       Move cursor right
-
     X           Backspace
-
     Y           Delete
-
     A           Space 
-
     B           Return
-
     Menu        Menu
-
     Select      Virtual keyboard
 
 
 
     L+Up        First line
-
     L+Down      Last line
-
     L+Right     End of the line
-
     L+Left      Beginning of the line
 
 
@@ -86,21 +74,15 @@ When the virtual keyboard is off then the following mapping is done :
 
 
     L+X         First line
-
     L+B         Last line
-
     L+Y         Beginning of the line
-
     L+A         End of the line
 
 
     
     R+Up        Page up
-
     R+Down      Page down
-
     R+Left      Word left
-
     R+Right     Word right
 
 
@@ -110,11 +92,8 @@ When the virtual keyboard is off then the following mapping is done :
 
 
     R+X         Copy
-
     R+B         Cut
-
     R+Y         Rewrap paragraph
-
     R+A         Paste
 
 
@@ -131,11 +110,8 @@ When the virtual keyboard is off then the following mapping is done :
   The touch screen can be used to move the cursor on a position with a simple click. And then you can :
 
     draw a line up    : page up
-
     draw a line down  : page down
-
     draw a line left  : first column of the current line
-
     draw a line right : last column of the current line
 
 3.3.3 - Main menu
@@ -153,7 +129,6 @@ When the virtual keyboard is off then the following mapping is done :
 3.3.5 - Help menu
 
     draw a line up/left     : page up
-
     draw a line down/right  : page down
 
 3.3.6 - Settings menu
